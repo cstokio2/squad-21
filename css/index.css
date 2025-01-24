@@ -1,0 +1,30 @@
+.container {
+    max-width: 100%;
+    background-color: #76bcad
+}
+
+.container-div{
+    margin: 0 auto;    
+}
+
+.gif-container {
+    width: 100%; /* Ajusta a largura da div */
+    max-width: 700px; /* Ajusta a largura máxima conforme necessário */
+
+}
+
+.gif-container img {
+    width: 100%; /* Ajusta a largura da imagem para preencher a div */
+}
+
+.text-overlay {
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; 
+    box-sizing: border-box;
+    margin-top: 11px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
