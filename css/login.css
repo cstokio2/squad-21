@@ -1,0 +1,8 @@
+.navbar-b {
+    position: static;
+}
+
+.custom-link {
+    color: #198754; /* Cor do link como a do botão */
+    text-decoration: none;
+}
