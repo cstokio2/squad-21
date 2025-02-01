@@ -4,7 +4,8 @@ body, html {
     padding: 0;
     display: flex;
     flex-direction: column;
-} 
+    font-size: 16px; /* Tamanho base da fonte */
+}
 
 .navbar-b {
     position: static;
@@ -16,24 +17,34 @@ body, html {
 
 .container {
     width: auto;
-
     display: flex;
     justify-content: center;
     margin: 50px;
     margin-left: 100px;
     height: 588px;
-    
 }
 
-form div{
-    margin: 20px;
-    
+form {
+    display: block;
+    margin: auto;
+    border: #3CB371 solid 1px;
+    border-radius: 3%;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dentro do formulário */
+}
+
+form div {
+    margin: 15px;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
 }
 
 form button {
     margin: 5px;
     margin-left: 18px;
-    
+    padding: 10px 20px; /* Aumenta o espaçamento interno do botão */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte do botão */
 }
 
 footer {
@@ -61,3 +72,4 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
+

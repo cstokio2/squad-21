@@ -4,14 +4,14 @@ section {
 }
 
 .navbar-b {
-    position: static;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .custom-link {
-    color: #198754; /* Cor do link como a do botão */
-    text-decoration: none;
+    color: #198754;
 }
-
 
 .base {
     display: flex;
@@ -32,6 +32,7 @@ section {
 
 .elemento-div-text { 
     width: 600px;
+    margin-top: 60px;
 }
 
 .titulo-melhorado {
@@ -46,7 +47,7 @@ section {
     font-size: 1.2rem; /* Aumenta o tamanho do texto */
     font-family: 'Arial', sans-serif; /* Altera a fonte */
     color: #555; /* Cor de texto secundário */
-    text-align: left;
+    text-align: justify;
 }
 
 .card {
@@ -56,6 +57,10 @@ section {
     min-height: 100%;
     background-color: #3CB371; /* Cor de destaque dos cards */
     color: #fff; /* Cor do texto dos cards */
+}
+
+.card-text {
+    text-align: justify;
 }
 
 .card-img-top {

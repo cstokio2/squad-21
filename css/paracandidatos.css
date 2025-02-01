@@ -1,0 +1,9 @@
+.navbar-b {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.custom-link {
+    color: #198754;
+}
