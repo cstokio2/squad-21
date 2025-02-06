@@ -1,0 +1,48 @@
+#carouselExampleIndicators {
+    max-width: 800px; /* Ajuste a largura do carrossel */
+    margin: 0 auto; /* Centraliza o carrossel na página */
+}
+
+#carouselExampleIndicators .carousel-inner img {
+    max-width: 100%; /* Ajuste a porcentagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+section {
+    margin-top: 10px;  /* Adiciona 10px de espaço entre a nav e a section */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
