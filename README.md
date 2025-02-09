@@ -1,16 +1,23 @@
 <p align="center">
-<img src=https://recodeproai.recode.org.br/pluginfile.php/1/theme_remui/logo/1736249600/RECODE%20PRO%20AI%20%281%29%20%281%29.png>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />  
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://recodeproai.recode.org.br/pluginfile.php/1/theme_remui/logo/1736249600/RECODE%20PRO%20AI%20%281%29%20%281%29.png" width="500" alt="Logo Recode Pro AI">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />  
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
 </p>
 
+
 ### Índice
+
+- [Descrição](#descrição)
+- [Principais Questões](#principais-questões)
+- [Equipe](#equipe)
+- [Agradecimentos](#agradecimentos)
+
 
 ### Descrição
 
 <p align="justify">
- Olá, nós somos o squad 21,e esse repositório é referente à primeira entrega de um projeto maior, realizado por meio do bootcamp Recode Pro IA.
+Olá, nós somos o Squad 21, e este repositório é referente à primeira entrega de um projeto maior, realizado por meio do bootcamp Recode Pro AI
 </p>
 
 ### Principais Questões
@@ -31,9 +38,37 @@
 
 ### Equipe
 
-| [<br><sub>Cassio Santos</sub>](https://github.com/cstokio2) | [<br><sub>Gabriel Viana</sub>](https://github.com/gabrielaraujo123) | [<br><sub>Ana Teles</sub>](https://github.com/anaccteles) | [<br><sub>Flávia Luciana</sub>](https://github.com/FlaviaLuciana) | [<br><sub>Luis Guedes</sub>](https://github.com/luisgued3s) |
-| :------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: |
-
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://avatars.githubusercontent.com/u/196198730?v=4" width="120"><br>
+        <b>Cassio Santos</b><br>
+        <a href="https://github.com/cstokio2">GitHub</a>
+      </td>
+      <td align="center">
+        <img src="https://avatars.githubusercontent.com/u/70415707?v=4" width="120"><br>
+        <b>Gabriel Viana</b><br>
+        <a href="https://github.com/gabrielaraujo123">GitHub</a>
+      </td>
+      <td align="center">
+        <img src="https://avatars.githubusercontent.com/u/167478906?v=4" width="120"><br>
+        <b>Ana Teles (vice lider)</b><br>
+        <a href="https://github.com/anaccteles">GitHub</a>
+      </td>
+      <td align="center">
+        <img src="https://avatars.githubusercontent.com/u/86089079?v=4" width="120"><br>
+        <b>Flávia Luciana</b><br>
+        <a href="https://github.com/FlaviaLuciana">GitHub</a>
+      </td>
+      <td align="center">
+        <img src="https://avatars.githubusercontent.com/u/104780405?v=4" width="120"><br>
+        <b>Luis Guedes (Líder)</b><br>
+        <a href="https://github.com/luisgued3s">GitHub</a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Agradecimentos
 
