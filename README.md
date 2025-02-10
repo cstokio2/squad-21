@@ -14,6 +14,7 @@
 - [Principais Questões](#principais-questões)
 - [Tecnologias](#tecnologias)
 - [Estrutura do Projeto](#estrutura-do-projeto)
+- [Deploy da Aplicação](#deploy-da-aplicação)
 - [Equipe](#equipe)
 - [Agradecimentos](#agradecimentos)
 
@@ -108,6 +109,10 @@ Abaixo está a estrutura organizada dos arquivos e diretórios utilizados no pro
     </tbody>
   </table>
 </div>
+
+### Deploy da Aplicação
+
+Disponível em: [https://conectando-talentos-seven.vercel.app/index.html](https://conectando-talentos-seven.vercel.app/index.html)
 
 ### Equipe
 
