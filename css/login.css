@@ -1,50 +1,41 @@
 body, html {
     height: 100%;
     margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
-    font-size: 16px; /* Tamanho base da fonte */
-}
-
-.navbar-b {
-    position: static;
-}
-
-.custom-link {
-    color: #3CB371; /* Cor do link como a do botão */
 }
 
 .container {
-    width: auto;
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    margin-left: 100px;
-    height: 588px;
+    flex: 1;
 }
 
-form {
-    display: block;
-    margin: auto;
-    border: #3CB371 solid 1px;
-    border-radius: 3%;
-    padding: 20px;
-    width: 100%;
-    max-width: 400px;
-    font-size: 1.2em; /* Aumenta o tamanho da fonte dentro do formulário */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
 }
 
-form div {
-    margin: 15px;
-    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-form button {
-    margin: 5px;
-    margin-left: 18px;
-    padding: 10px 20px; /* Aumenta o espaçamento interno do botão */
-    font-size: 1.2em; /* Aumenta o tamanho da fonte do botão */
+.card-body {
+    padding: 2px 16px;
+}
+.form-group {
+    padding: 8px;
+}
+
+.btn {
+    margin-left: 8px;
+}
+
+.text-link {
+    color: #3CB371;
+} 
+
+.text-cadastro {
+    margin-bottom: 20px;
 }
 
 footer {
@@ -72,4 +63,3 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
-

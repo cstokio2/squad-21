@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-b navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img src="/images/logo.png" alt="Logo" width="50" height="35" class="d-inline-block align-text-top">
@@ -46,33 +46,40 @@
         </nav>
     </header>
 
-    <section class="container">
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Endereço de email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Seu email">
-                <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
-                    ninguém.</small>
+    <div class="container" style="margin-top: 100px;">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Login</h2>
+                        <form action="autenticacao.php" method="POST">
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="senha">Senha:</label>
+                                <input type="password" class="form-control" id="senha" name="senha" required>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-block">Entrar</button>
+                        </form>
+                        <div class="mt-3 text-center text-cadastro">
+                            <a href="../pages/para_pessoas.html" class="text-link">Cadastrar-se como Candidato</a>
+                            <br>
+                            <a href="../pages/empresa.html" class="text-link">Cadastrar-se como Empresa</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
-            </div>
-            <button type="submit" class="btn btn-success">Enviar</button>
-        </form>
-    </section>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
             <p>&copy; 2025 Squad-21 RECODE PRO AI. Todos os direitos reservados.</p>
             <div class="footer-links">
                 <a href="/about">Sobre Nós</a> |
-                <a href="./contato.html">Contato</a> |
+                <a href="./pages/contato.html">Contato</a> |
                 <a href="/privacy">Política de Privacidade</a>
             </div>
         </div>
